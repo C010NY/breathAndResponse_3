@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>呼吸 × 反応速度 Ver2.5</title>
+  <title>呼吸 × 反応速度 3ver.</title>
   <style>
     * {
       box-sizing: border-box
@@ -292,7 +292,7 @@
 
     <section id="measure" class="screen">
       <div class="card center">
-        <p id="trialLabel">1 / 5</p>
+        <p id="trialLabel">1 / 3</p>
         <div class="progress">
           <div class="bar" id="bar"></div>
         </div>
@@ -425,7 +425,7 @@
 
       document.getElementById("introTitle").textContent = "基準測定";
       document.getElementById("introText").textContent =
-        "普段どおりに呼吸しながら、同じ選択反応課題を5回行います。";
+        "普段どおりに呼吸しながら、同じ選択反応課題を3回行います。";
 
       show("reverse");
       //show("measureIntro");
@@ -733,7 +733,7 @@
       breathCountdown = null;
       //mode="after";
       if (reverse == false) document.getElementById("afterBreathText").textContent =
-        `${breathType}を1分間体験しました。これから、呼吸後の「色の認識 → ボタン位置の確認 → タップ」の選択反応課題を5回行います。`;
+        `${breathType}を1分間体験しました。これから、呼吸後の「色の認識 → ボタン位置の確認 → タップ」の選択反応課題を3回行います。`;
       show("afterBreathIntro");
     }
 
